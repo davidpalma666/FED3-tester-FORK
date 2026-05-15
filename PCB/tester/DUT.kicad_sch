@@ -6597,8 +6597,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MotorCkeck1"
+		(property "Value" "PPTC051LFBN-RC"
 			(at 267.97 64.7701 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9701,8 +9702,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MotorCkeck2"
+		(property "Value" "61300511021"
 			(at 267.97 82.5501 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9926,7 +9928,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 106.68 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12192,7 +12194,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 106.68 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14130,7 +14132,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "61300621021"
 			(at 261.62 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15029,7 +15031,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "PPTC021LFBN-RC"
 			(at 215.9 113.6649 90)
 			(hide yes)
 			(show_name no)
@@ -19102,7 +19104,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k3"
+		(property "Value" "4.3k"
 			(at 125.73 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19180,7 +19182,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "5%"
 			(at 123.19 177.8 0)
 			(hide yes)
 			(show_name no)

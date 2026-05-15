@@ -5972,7 +5972,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6108,7 +6108,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 53.34 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -6595,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 52.07 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6731,7 +6731,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 52.07 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -8294,7 +8294,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 24.13 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9155,7 +9155,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 54.61 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10704,7 +10704,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -11797,7 +11797,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "PR20203VBDN"
 			(at 189.23 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -12239,7 +12239,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -14519,7 +14519,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 25.4 15.24 0)
 			(hide yes)
 			(show_name no)

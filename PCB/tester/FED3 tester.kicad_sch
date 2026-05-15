@@ -6294,7 +6294,7 @@
 				)
 			)
 		)
-		(property "TempCo" "X5R"
+		(property "TempCo" "X7R"
 			(at 95.25 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "FT232RL"
+		(property "Value" "FT232RNL-REEL"
 			(at 120.65 29.972 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8525,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 88.9 33.8836 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11389,7 +11389,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8.2k"
 			(at 86.106 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11526,7 +11526,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 71.12 33.8836 90)
 			(show_name no)
 			(do_not_autoplace no)

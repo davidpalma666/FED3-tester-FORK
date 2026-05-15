@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Value" "8k2"
+		(property "Value" "8.2k"
 			(at 0 1.43 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3560,7 +3560,7 @@
 				)
 			)
 		)
-		(property "Value" "FT232RL"
+		(property "Value" "FT232RNL-REEL"
 			(at 0 6.05 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9852,7 +9852,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10773,7 +10773,7 @@
 				)
 			)
 		)
-		(property "Value" "MotorCkeck2"
+		(property "Value" "61300511021"
 			(at -4.38 12.93 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12165,7 +12165,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15668,7 +15668,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17269,7 +17269,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17885,7 +17885,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 0 1.65 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18117,7 +18117,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19892,7 +19892,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22572,7 +22572,7 @@
 				)
 			)
 		)
-		(property "TempCo" "X5R"
+		(property "TempCo" "X7R"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22726,7 +22726,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Socket"
+		(property "Value" "PPTC021LFBN-RC"
 			(at 0 5.31 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26081,7 +26081,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29787,7 +29787,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34118,7 +34118,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35501,7 +35501,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "PR20203VBDN"
 			(at 1.27 7.46 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37792,7 +37792,7 @@
 				)
 			)
 		)
-		(property "Value" "4k3"
+		(property "Value" "4.3k"
 			(at 0 1.43 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37882,7 +37882,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "5%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38486,7 +38486,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_SPST"
+		(property "Value" "TL3305BF260QG"
 			(at 0 3.2 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39605,7 +39605,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Odd_Even"
+		(property "Value" "61300621021"
 			(at 5.655 7.35 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41611,7 +41611,7 @@
 				)
 			)
 		)
-		(property "Value" "MotorCkeck1"
+		(property "Value" "PPTC051LFBN-RC"
 			(at 0 12.93 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42077,7 +42077,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44186,7 +44186,7 @@
 				)
 			)
 		)
-		(property "Value" "40R@100MHz"
+		(property "Value" "MI0805K400R-10"
 			(at 0 1.65 90)
 			(unlocked yes)
 			(layer "F.Fab")
