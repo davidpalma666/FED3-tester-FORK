@@ -11134,7 +11134,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "560R"
 			(at 46.99 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11166,7 +11166,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "SMD 0402 560Ω ±1% 0.063W"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11177,7 +11177,7 @@
 				)
 			)
 		)
-		(property "MPN" "CPF0402B10KE1"
+		(property "MPN" "CRCW0402560RFKED"
 			(at 43.942 194.183 0)
 			(hide yes)
 			(show_name no)
@@ -11189,7 +11189,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "OEPSPN" "OEPS020043"
+		(property "OEPSPN" "OEPS020193"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -11211,7 +11211,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "0.1%"
+		(property "Tolerance" "1%"
 			(at 46.99 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13705,7 +13705,7 @@
 				)
 			)
 		)
-		(property "MPN" "VFHR1116P-4C82A-TR"
+		(property "MPN" "5990010007F"
 			(at 38.1 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13716,7 +13716,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030038"
+		(property "OEPSPN" "OEPS030044"
 			(at 38.1 185.42 0)
 			(hide yes)
 			(show_name no)
