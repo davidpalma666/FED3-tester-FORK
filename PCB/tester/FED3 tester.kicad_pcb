@@ -158,12 +158,12 @@
 			(hidednponfab no)
 			(sketchdnponfab yes)
 			(crossoutdnponfab yes)
-			(subtractmaskfromsilk no)
+			(subtractmaskfromsilk yes)
 			(outputformat 1)
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "production/gerbers/")
+			(outputdirectory "manufacturing/gerbers/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
@@ -209,7 +209,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -518,7 +518,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -749,7 +749,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
+		(property "Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -980,7 +980,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 3.3kΩ ±1% 0.100W   [ERJ-2RKF3301X] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1211,7 +1211,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1224,7 +1224,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1250,7 +1250,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1276,7 +1276,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1442,7 +1442,7 @@
 				)
 			)
 		)
-		(property "Description" "MOSFET P-CH 20V 1A"
+		(property "Description" "TRANSISTOR:   MOSFET P-CH 20V 1A   [PMF170XP,115] [SOT-323]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1838,7 +1838,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2069,7 +2069,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2300,7 +2300,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 8.2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0603 8.2kΩ ±1% 0.100W   [ERJ-3EKF8201V] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2531,7 +2531,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2762,7 +2762,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2775,7 +2775,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2788,7 +2788,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2827,7 +2827,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3072,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3303,7 +3303,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3585,7 +3585,7 @@
 				)
 			)
 		)
-		(property "Description" "USB to Serial Interface, SSOP-28"
+		(property "Description" "IC:   USB Interface IC USB to Serial UART   [FT232RNL-REEL] [SSOP-28]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4345,7 +4345,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -4447,7 +4447,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 4.7nF 100V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 4.7nF 100V ±10% X7R   [885012205084] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4757,7 +4757,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5172,7 +5172,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -5353,7 +5353,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5584,7 +5584,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 28kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 24kΩ ±1% 0.100W   [ERJ-2RKF2402X] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5815,7 +5815,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6097,7 +6097,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6328,7 +6328,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1MΩ ±1% 0.063W   [CRCW04021M00FKED] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6559,7 +6559,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6598,7 +6598,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6624,7 +6624,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6893,7 +6893,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -6995,7 +6995,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10MΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10MΩ ±1% 0.063W   [CRCW040210M0FKED] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7368,7 +7368,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7381,7 +7381,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7394,7 +7394,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7433,7 +7433,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7599,7 +7599,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7830,7 +7830,7 @@
 				)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8260,7 +8260,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8285,7 +8285,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8311,7 +8311,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8324,7 +8324,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8516,7 +8516,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8747,7 +8747,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9081,7 +9081,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -9183,7 +9183,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9414,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9645,7 +9645,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9877,7 +9877,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10401,7 +10401,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10798,7 +10798,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN HEADER R/A 5POS 2.54MM"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM R/A 1x5POS   [61300511021] [TH]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11777,7 +11777,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -11879,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 4.7uF 16V ±10% X6S"
+		(property "Description" "CAPACITOR:   SMD CER 0603 4.7uF 16V ±10% X6S   [C1608X6S1C475K080AC] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12190,7 +12190,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12712,7 +12712,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13276,7 +13276,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1MΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1MΩ ±1% 0.063W   [CRCW04021M00FKED] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13507,7 +13507,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
+		(property "Description" "RESISTOR:   SMD 0402 5kΩ ±0.1% 0.050W   [PNM0402E5001BST1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13738,7 +13738,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13969,7 +13969,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14443,7 +14443,7 @@
 				)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14896,7 +14896,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15460,7 +15460,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15693,7 +15693,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16217,7 +16217,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16691,7 +16691,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 1kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 1kΩ ±1% 0.063W   [CRCW04021K00FKED] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16922,7 +16922,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17294,7 +17294,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17910,7 +17910,7 @@
 				)
 			)
 		)
-		(property "Description" "FERRITE BEAD SMD 40Ω 2A 50mΩ"
+		(property "Description" "INDUCTOR:   FERRITE BEAD SMD 40Ω 2A 50mΩ   [MI0805K400R-10] [0805]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18142,7 +18142,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18679,7 +18679,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18910,7 +18910,7 @@
 				)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19365,7 +19365,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19596,7 +19596,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19827,7 +19827,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 249kΩ ±1% 0.063W   [RMCF0402FT249K] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20056,7 +20056,7 @@
 				)
 			)
 		)
-		(property "Description" "RELAY TELECOM SPDT 2A 5V"
+		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20595,7 +20595,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20620,7 +20620,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20633,7 +20633,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20659,7 +20659,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20851,7 +20851,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21082,7 +21082,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21416,7 +21416,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -21478,7 +21478,7 @@
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "7c81cd64-24e2-42ff-9150-05880c3559c5")
-		(at 128.2211 41.9775 90)
+		(at 128.37 41.97 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
@@ -21518,7 +21518,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21749,7 +21749,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -21980,7 +21980,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22211,7 +22211,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22520,7 +22520,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 1206 10uF 25V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 1206 10uF 25V ±10% X7R   [GRM31CR71E106KA12L] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22751,7 +22751,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER RCPT 2.54MM straight 1x2POS"
+		(property "Description" "CONNECTOR:   HEADER RCPT 2.54MM straight 1x2POS   [PPTC021LFBN-RC] [TH]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23094,7 +23094,7 @@
 				)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23628,7 +23628,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23859,7 +23859,7 @@
 				)
 			)
 		)
-		(property "Description" "IC REG LIN POS ADJ 1A SOT-223-6"
+		(property "Description" "IC:   LDO ADJ 1A   [TPS73801DCQR] [SOT-223-6]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24220,7 +24220,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+		(property "Description" "CONNECTOR:   USB2.0 TYPE C 24P SMD R/A   [USB4105-GF-A] [SMD/TH]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24769,7 +24769,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -24871,7 +24871,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25102,7 +25102,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5.1kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 5.1kΩ ±0.1% 0.063W   [RT0402BRD075K1L] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25115,7 +25115,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF5101X"
+		(property "MPN" "RT0402BRD075K1L"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25141,7 +25141,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020173"
+		(property "OEPSPN" "OEPS020203"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25167,7 +25167,7 @@
 				)
 			)
 		)
-		(property "Tolerance" "1%"
+		(property "Tolerance" "0.1%"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25333,7 +25333,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 27Ω ±1% 0.063W   [RMCF0402FT27R0] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25564,7 +25564,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
+		(property "Description" "CAPACITOR:   SMD CER 0603 2.2uF 25V ±10% X5R (OEPS J30 006)   [GRM188R61E225KA12D] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -25795,7 +25795,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26106,7 +26106,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26643,7 +26643,7 @@
 				)
 			)
 		)
-		(property "Description" "OPAMP VFB 1 CIRCUIT"
+		(property "Description" "IC:   OPAMP VFB 1 CIRCUIT   [THS4281DBVT] [SC-74A]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27117,7 +27117,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27348,7 +27348,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27745,7 +27745,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 649kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 649kΩ ±1% 0.100W   [ERJ-2RKF6493X] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27951,7 +27951,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27976,7 +27976,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27989,7 +27989,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28015,7 +28015,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28310,7 +28310,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -28412,7 +28412,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28643,7 +28643,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28874,7 +28874,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29105,7 +29105,7 @@
 				)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+		(property "Description" "IC:   LDO 3.3V 250mA   [LP5907MFX-3.3/NOPB] [SOT-23-5]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29580,7 +29580,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29812,7 +29812,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30348,7 +30348,7 @@
 				)
 			)
 		)
-		(property "Description" "BUZZER MAGNETIC 3V 5X5MM SMD"
+		(property "Description" "OTHER:   BUZZER MAGNETIC 3V 5X5MM SMD   [CSS-0575A-SMT-TR] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30676,7 +30676,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -30778,7 +30778,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31009,7 +31009,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31240,7 +31240,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31967,7 +31967,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Yellow 590nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Yellow 590nm 20mA   [5990040007F] [0603]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32249,7 +32249,7 @@
 				)
 			)
 		)
-		(property "Description" "PRECISION HIGH VOLTAGE HIGH-SIDE CURRENT MONITOR"
+		(property "Description" "IC:   CURRENT MONITOR 2%   [ZXCT1082QE5TA] [SOT-25]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32723,7 +32723,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33361,7 +33361,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -33463,7 +33463,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33745,7 +33745,7 @@
 				)
 			)
 		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+		(property "Description" "DIODE:   Standard 75V 150mA   [1N4148WX-TP] [SOD-323]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34143,7 +34143,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34640,7 +34640,7 @@
 	(footprint "FED3_PCBLib:OSC"
 		(layer "F.Cu")
 		(uuid "c71fad29-f63b-4767-9fe1-f9946cc39204")
-		(at 125.2836 41.5675 180)
+		(at 125.55 41.5675 180)
 		(property "Reference" "OSC1"
 			(at 2.9636 1.9075 0)
 			(unlocked yes)
@@ -34682,7 +34682,7 @@
 				)
 			)
 		)
-		(property "Description" "OSC 32MHz 10ppm"
+		(property "Description" "IC:   MEMS OSC XO 32MHZ CMOS 10ppm   [DSC1001CI5-032.0000] [4-SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34983,7 +34983,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 27Ω ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 27Ω ±1% 0.063W   [RMCF0402FT27R0] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35214,7 +35214,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0603 2.2uF 25V ±10% X5R"
+		(property "Description" "CAPACITOR:   SMD CER 0603 2.2uF 25V ±10% X5R (OEPS J30 006)   [GRM188R61E225KA12D] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35526,7 +35526,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM straight 2x3POS"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM straight 2x3POS   [PR20203VBDN] [TH]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35982,7 +35982,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36213,7 +36213,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36547,7 +36547,7 @@
 				(pins "1")
 			)
 		)
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -36649,7 +36649,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36880,7 +36880,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37111,7 +37111,7 @@
 				)
 			)
 		)
-		(property "Description" "250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"
+		(property "Description" "IC:   LDO 3.3V 250mA   [LP5907MFX-3.3/NOPB] [SOT-23-5]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37586,7 +37586,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -37817,7 +37817,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 4.3kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0603 4.3kΩ ±5% 0.100W   [ERJ-3GEYJ432V] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38048,7 +38048,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38254,7 +38254,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38279,7 +38279,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38305,7 +38305,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38318,7 +38318,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -38511,7 +38511,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch"
+		(property "Description" "OTHER:   SWITCH TACTILE SPST-NO 0.05A 12V   [TL3305BF260QG] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39116,7 +39116,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39398,7 +39398,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -39630,7 +39630,7 @@
 				)
 			)
 		)
-		(property "Description" "HEADER 2.54MM R/A 2x3POS"
+		(property "Description" "CONNECTOR:   HEADER 2.54MM R/A 2x3POS   [61300621021] [TH]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -40350,7 +40350,7 @@
 				)
 			)
 		)
-		(property "Description" "MCU ATXMEGA A4U 8bits 32KB"
+		(property "Description" "IC:   MCU ATXMEGA A4U 8bits 32KB   [ATXMEGA32A4U-MHR] [44-VFQFN]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41392,7 +41392,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 10kΩ ±0.1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 10kΩ ±0.1% 0.063W   [CPF0402B10KE1] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41636,7 +41636,7 @@
 				)
 			)
 		)
-		(property "Description" "CONN RCPT 2.54mm 5POS"
+		(property "Description" "CONNECTOR:   HEADER RCPT 2.54MM straight 1x5POS   [PPTC051LFBN-RC] [TH]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42012,7 +42012,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 249kΩ ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 249kΩ ±1% 0.063W   [RMCF0402FT249K] [SMD]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42243,7 +42243,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 100Ω ±1% 0.250W"
+		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42449,7 +42449,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "330R"
 			(at 0 1.17 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42474,7 +42474,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 2kΩ ±1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 330Ω ±1% 0.200W   [CRCW0402330RFKEDHP] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42487,7 +42487,7 @@
 				)
 			)
 		)
-		(property "MPN" "ERJ-2RKF2001X"
+		(property "MPN" "CRCW0402330RFKEDHP "
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42513,7 +42513,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020007"
+		(property "OEPSPN" "OEPS020191"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42705,7 +42705,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 5kΩ ±0.1% 0.050W"
+		(property "Description" "RESISTOR:   SMD 0402 5kΩ ±0.1% 0.050W   [PNM0402E5001BST1] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -42936,7 +42936,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43167,7 +43167,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Red 635nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Red 633nm 20mA   [5990010007F] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43512,7 +43512,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -43743,7 +43743,7 @@
 				)
 			)
 		)
-		(property "Description" "1.2A Id, 60V Vds, 480mOhm Rds, N-Channel HEXFET Power MOSFET, SOT-23"
+		(property "Description" "TRANSISTOR:   MOSFET N-CH 30V 350mA   [DMN63D8L-7] [SOT23]"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44211,7 +44211,7 @@
 				)
 			)
 		)
-		(property "Description" "FERRITE BEAD SMD 40Ω 2A 50mΩ"
+		(property "Description" "INDUCTOR:   FERRITE BEAD SMD 40Ω 2A 50mΩ   [MI0805K400R-10] [0805]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44888,7 +44888,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45119,7 +45119,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0402 560Ω ±1% 0.063W"
+		(property "Description" "RESISTOR:   SMD 0402 560Ω ±1% 0.063W   [CRCW0402560RFKED] [SMD]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45350,7 +45350,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0603 1.2kΩ ±0.1% 0.100W"
+		(property "Description" "RESISTOR:   SMD 0402 1.2kΩ ±0.1% 0.063W   [ERA-2AEB122X] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45581,7 +45581,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 15nF 35V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 15nF 35V ±10% X7R   [CGA2B3X7R1V153K050BB] [SMD]"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -45812,7 +45812,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD 0805 0.5Ω ±1% 1/3W"
+		(property "Description" "RESISTOR:   SMD 0805 0.5Ω ±1% 1/3W    [RL1220S-R50-F] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46043,7 +46043,7 @@
 				)
 			)
 		)
-		(property "Description" "LED 0603 Green 571nm 20mA"
+		(property "Description" "DIODE:   LED 0603 Green 571nm 20mA   [LTST-C191KGKT] [0603]"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -46325,7 +46325,7 @@
 				)
 			)
 		)
-		(property "Description" "SMD CER 0402 100nF 50V ±10% X7R"
+		(property "Description" "CAPACITOR:   SMD CER 0402 100nF 50V ±10% X7R   [CGA2B3X7R1H104K050BB] [SMD]"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -47976,6 +47976,14 @@
 		(uuid "0622d81a-83d6-4ca2-ab2a-37406e084487")
 	)
 	(segment
+		(start 128.2211 41.3411)
+		(end 128.37 41.49)
+		(width 0.23)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "0684984f-9269-4693-8f2c-7d7a8d83c46c")
+	)
+	(segment
 		(start 70.65 61.16)
 		(end 70.67 61.14)
 		(width 0.25)
@@ -48134,14 +48142,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "2766d6ba-da9f-4383-a6c1-de309eafa20f")
-	)
-	(segment
-		(start 128.22 40.61)
-		(end 128.2211 40.6111)
-		(width 0.23)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "282bf4f9-ec3e-4aef-9015-f3dd8229e7e7")
 	)
 	(segment
 		(start 70.1375 88.4375)
@@ -48736,6 +48736,14 @@
 		(uuid "972ddb96-b7f4-49a8-b98c-a9570b4886af")
 	)
 	(segment
+		(start 128.2211 40.6111)
+		(end 128.2211 41.3411)
+		(width 0.23)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "975e6554-bcc5-4e79-bf1b-4fd0608fe0b5")
+	)
+	(segment
 		(start 69.855 48.36)
 		(end 69.895 48.4)
 		(width 0.25)
@@ -48830,6 +48838,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "a9ff66b1-2bf6-4b88-b030-992cfd26fe34")
+	)
+	(segment
+		(start 128.22 40.61)
+		(end 128.2211 40.6111)
+		(width 0.23)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "ab5615a5-f0ed-44e3-b5c1-d379232f5915")
 	)
 	(segment
 		(start 76.4375 86.1)
@@ -49206,14 +49222,6 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "eb9b9055-1978-4448-9c36-0fba91b5f219")
-	)
-	(segment
-		(start 128.2211 40.6111)
-		(end 128.2211 41.4975)
-		(width 0.23)
-		(layer "F.Cu")
-		(net "GND")
-		(uuid "ec4efd12-a2c2-44fd-9d72-38b8e7e932da")
 	)
 	(segment
 		(start 85.985 130.175289)
@@ -52397,12 +52405,20 @@
 		(uuid "cb4887b1-5dd8-4dbf-a0c0-6a10954385aa")
 	)
 	(segment
-		(start 122.57 44.96)
-		(end 122.57 41.435111)
+		(start 121.734889 40.6)
+		(end 120.9525 40.6)
 		(width 0.21)
 		(layer "F.Cu")
 		(net "AVCC")
-		(uuid "1e86a550-9070-4ae2-9121-0d858277abe0")
+		(uuid "00d7784c-9c07-4a23-a02a-41bddeef80cc")
+	)
+	(segment
+		(start 122.63 43.43)
+		(end 122.63 42.49)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "0fef80cf-c040-4124-bcec-ed0d8dc98efc")
 	)
 	(segment
 		(start 122.24 46.5036)
@@ -52410,7 +52426,31 @@
 		(width 0.21)
 		(layer "F.Cu")
 		(net "AVCC")
-		(uuid "4d621f1d-e114-4a04-affd-c019971f343e")
+		(uuid "152f4633-83be-4dd8-8435-6ac1735d5d5c")
+	)
+	(segment
+		(start 122.63 42.49)
+		(end 122.405 42.265)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "44382b2e-476d-42c2-9b69-10289a728e0c")
+	)
+	(segment
+		(start 122.309 46.4346)
+		(end 122.309 45.221)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "44e00677-6817-4e17-bc05-0dfcde60ed90")
+	)
+	(segment
+		(start 122.415 45.115)
+		(end 122.415 43.645)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "476e8f8c-af71-46b5-a061-6ae7ca05a825")
 	)
 	(segment
 		(start 118.95 40.575)
@@ -52421,28 +52461,12 @@
 		(uuid "4e39404c-60fa-46f2-b236-5cb58a89f413")
 	)
 	(segment
-		(start 122.57 41.435111)
-		(end 121.734889 40.6)
+		(start 122.415 43.645)
+		(end 122.63 43.43)
 		(width 0.21)
 		(layer "F.Cu")
 		(net "AVCC")
-		(uuid "503436e0-0964-4bef-a99c-f59f5238f74a")
-	)
-	(segment
-		(start 122.309 46.4346)
-		(end 122.309 45.221)
-		(width 0.21)
-		(layer "F.Cu")
-		(net "AVCC")
-		(uuid "579728a9-21d3-48d3-976f-c83e59c5927b")
-	)
-	(segment
-		(start 121.734889 40.6)
-		(end 120.9525 40.6)
-		(width 0.21)
-		(layer "F.Cu")
-		(net "AVCC")
-		(uuid "613be8a8-a63f-4044-b8d9-01c4961091f4")
+		(uuid "72b06b1c-721a-4a26-bece-3931de8ff7e6")
 	)
 	(segment
 		(start 116.4875 40.5325)
@@ -52454,11 +52478,27 @@
 	)
 	(segment
 		(start 122.309 45.221)
-		(end 122.57 44.96)
+		(end 122.415 45.115)
 		(width 0.21)
 		(layer "F.Cu")
 		(net "AVCC")
-		(uuid "d550e73c-cb9f-4898-b782-1e097e78a785")
+		(uuid "d18a9156-788e-4745-ae48-8bec0efc36e2")
+	)
+	(segment
+		(start 122.405 41.270111)
+		(end 121.734889 40.6)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "d948aec4-b096-46fb-90ae-c2dcad455241")
+	)
+	(segment
+		(start 122.405 42.265)
+		(end 122.405 41.270111)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "AVCC")
+		(uuid "e3f21f7a-7c95-45d8-baf6-3def92708d89")
 	)
 	(segment
 		(start 76.4375 84.83)
@@ -53427,14 +53467,6 @@
 		(uuid "52cc93e3-ea46-4889-b3b1-782554a3af79")
 	)
 	(segment
-		(start 128.2211 42.4575)
-		(end 128.33 42.5664)
-		(width 0.21)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "534f7ca8-6f5f-43bc-9ccd-bea5c31e1459")
-	)
-	(segment
 		(start 85.56 36.36)
 		(end 86.245 36.36)
 		(width 0.22)
@@ -53465,6 +53497,14 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "6346869d-d01b-4997-b7b0-fd28e4777d86")
+	)
+	(segment
+		(start 128.33 42.5664)
+		(end 128.33 48.33)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "71f42f9a-ac1e-4f01-82f3-256b23d882e2")
 	)
 	(segment
 		(start 116.12 52.81)
@@ -53513,14 +53553,6 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "82f46fbc-f8f7-43a8-a164-7c2a1276fc69")
-	)
-	(segment
-		(start 128.33 42.5664)
-		(end 128.33 48.33)
-		(width 0.21)
-		(layer "F.Cu")
-		(net "+3V3")
-		(uuid "8fb06b50-1df4-4c69-b6ec-39dabda4d44d")
 	)
 	(segment
 		(start 125.5775 48.3411)
@@ -53601,6 +53633,22 @@
 		(layer "F.Cu")
 		(net "+3V3")
 		(uuid "e5a187ac-3c26-40ae-9fd8-d6b00611c010")
+	)
+	(segment
+		(start 128.37 42.45)
+		(end 128.37 42.5264)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "e7021d82-d09f-42dd-979c-d2dec6653470")
+	)
+	(segment
+		(start 128.37 42.5264)
+		(end 128.33 42.5664)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "+3V3")
+		(uuid "e9254d31-7a6d-4a9f-8e39-42ee9500b1b6")
 	)
 	(segment
 		(start 86.4525 83.0225)
@@ -58931,20 +58979,44 @@
 		(uuid "f673adfe-49d9-40eb-a296-a47ecbc9963e")
 	)
 	(segment
-		(start 123.24 46.5036)
-		(end 123.24 43.31111)
+		(start 123.32 45.864644)
+		(end 123.32 44.33)
 		(width 0.21)
 		(layer "F.Cu")
 		(net "/main core/OSC")
-		(uuid "53ab2dc1-3353-40a9-a69c-889b9dcb39a6")
+		(uuid "06a7b99b-93a1-43fa-868e-54d32f3191e4")
 	)
 	(segment
-		(start 123.24 43.31111)
-		(end 123.9836 42.56751)
+		(start 123.32 44.33)
+		(end 124.25 43.4)
 		(width 0.21)
 		(layer "F.Cu")
 		(net "/main core/OSC")
-		(uuid "c0a1ef14-a346-45b3-9cd6-847bd7b4b43f")
+		(uuid "50545fba-74ce-4193-b573-40e025d51d40")
+	)
+	(segment
+		(start 123.24 45.944644)
+		(end 123.32 45.864644)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "/main core/OSC")
+		(uuid "556a5c1e-79e0-432d-91eb-dcfdac924d81")
+	)
+	(segment
+		(start 123.24 46.5036)
+		(end 123.24 45.944644)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "/main core/OSC")
+		(uuid "8c5b7aad-ed63-4693-b26e-1599bab52127")
+	)
+	(segment
+		(start 124.25 43.4)
+		(end 124.25 42.56751)
+		(width 0.21)
+		(layer "F.Cu")
+		(net "/main core/OSC")
+		(uuid "9fe3a727-916d-48b5-ba12-672d82754d42")
 	)
 	(segment
 		(start 125.42 45.01)
@@ -59647,33 +59719,42 @@
 		(uuid "79190e81-7483-48b1-a202-35672c2afc5f")
 	)
 	(zone
+		(net "GND")
 		(layer "F.Cu")
-		(uuid "68ebf156-9d5f-48d6-b168-f87e352549d7")
+		(uuid "7ad8a1e8-992b-48e2-8ad2-d484bdb42d16")
 		(hatch edge 0.5)
+		(priority 4)
 		(connect_pads
-			(clearance 0)
+			(clearance 0.000001)
 		)
 		(min_thickness 0.25)
-		(keepout
-			(tracks allowed)
-			(vias allowed)
-			(pads allowed)
-			(copperpour not_allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
+		(fill yes
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
 			(island_removal_mode 0)
 		)
 		(polygon
 			(pts
-				(xy 125.22 39.81) (xy 125.22 40.71) (xy 122.8382 40.727495) (xy 122.8564 43.44499) (xy 127.6564 43.44499)
-				(xy 127.62 39.81)
+				(xy 123.30582 39.980085) (xy 123.30582 46.320085) (xy 121.95582 46.320085) (xy 121.94582 39.980085)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 123.248859 39.99977) (xy 123.294614 40.052574) (xy 123.30582 40.104085) (xy 123.30582 43.860776)
+				(xy 123.286135 43.927815) (xy 123.269501 43.948457) (xy 123.075541 44.142416) (xy 123.075535 44.142425)
+				(xy 123.035321 44.212075) (xy 123.03532 44.212077) (xy 123.0145 44.28978) (xy 123.0145 45.347761)
+				(xy 122.994815 45.4148) (xy 122.942011 45.460555) (xy 122.874314 45.4707) (xy 122.865 45.469473)
+				(xy 122.865 46.320085) (xy 122.615 46.320085) (xy 122.615 45.416399) (xy 122.6145 45.412839) (xy 122.6145 45.398904)
+				(xy 122.634185 45.331865) (xy 122.650819 45.311223) (xy 122.659461 45.302581) (xy 122.672879 45.27934)
+				(xy 122.699681 45.232919) (xy 122.7205 45.15522) (xy 122.7205 43.822904) (xy 122.740185 43.755865)
+				(xy 122.756819 43.735223) (xy 122.874461 43.617581) (xy 122.895462 43.581206) (xy 122.914681 43.547919)
+				(xy 122.9355 43.47022) (xy 122.9355 42.44978) (xy 122.914681 42.372081) (xy 122.874461 42.302419)
+				(xy 122.817581 42.245539) (xy 122.746819 42.174777) (xy 122.713334 42.113454) (xy 122.7105 42.087096)
+				(xy 122.7105 41.229893) (xy 122.7105 41.229891) (xy 122.689681 41.152192) (xy 122.649461 41.08253)
+				(xy 122.592581 41.02565) (xy 121.982688 40.415757) (xy 121.968028 40.388911) (xy 121.951447 40.363198)
+				(xy 121.950524 40.356854) (xy 121.949203 40.354434) (xy 121.946369 40.328271) (xy 121.946016 40.10428)
+				(xy 121.965595 40.03721) (xy 122.018327 39.991372) (xy 122.070016 39.980085) (xy 123.18182 39.980085)
 			)
 		)
 	)
