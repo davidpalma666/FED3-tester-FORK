@@ -1,7 +1,11 @@
 
 
 
-
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @12 Junho 2026
+- sobre rev.1.0
+	. pinout dos relais mal desenhado
+	. R de buzzer muito grande; Rbuzzer=1r
 
 
 

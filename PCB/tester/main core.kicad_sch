@@ -10399,7 +10399,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 254 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -10410,7 +10410,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 254 143.51 90)
 			(hide yes)
 			(show_name no)
@@ -12510,7 +12510,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "1R"
 			(at 262.89 133.858 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12542,7 +12542,7 @@
 				)
 			)
 		)
-		(property "Description" "RESISTOR:   SMD 0402 100Ω ±1% 0.250W   [RCS0402100RFKED] [SMD]"
+		(property "Description" "SMD 0402 1Ω ±1% 0.063W"
 			(at 259.08 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -12553,7 +12553,7 @@
 				)
 			)
 		)
-		(property "MPN" "RCS0402100RFKED"
+		(property "MPN" "CRCW04021R00FKEDC"
 			(at 259.08 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -12564,7 +12564,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS020028"
+		(property "OEPSPN" "OEPS020061"
 			(at 259.08 134.62 90)
 			(hide yes)
 			(show_name no)

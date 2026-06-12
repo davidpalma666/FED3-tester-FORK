@@ -1394,7 +1394,7 @@
 				)
 			)
 			(property "Footprint" "FED3_PCBLib:RELAY_1462042-8"
-				(at 0 0 0)
+				(at -1.27 -2.032 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1416,7 +1416,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1427,7 +1427,7 @@
 					)
 				)
 			)
-			(property "Comment" "1462042-8"
+			(property "OEPSPN" "OEPS100078"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1436,10 +1436,9 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 				)
 			)
-			(property "MF" "TE Connectivity"
+			(property "MPN" "1462042-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1448,139 +1447,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-				)
-			)
-			(property "Description_1" "Signal Relay 5VDC 2A SPDT (( 10mm 7.5mm 5.65mm)) Surface Mount Automotive"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=eda"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "STANDARD" "Manufacturer recommendation"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "PARTREV" "0917"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/1462042-8/TE+Connectivity+Potter+%2526+Brumfield+Relays/view-part/?ref=snap"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MP" "1462042-8"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "EU_RoHS_Compliance" "Compliant"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-				)
-			)
-			(property "MANUFACTURER" "TE Connectivity"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
 				)
 			)
 			(symbol "1462042-8_0_0"
@@ -1824,24 +1690,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 -5.08 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 10.16 0 180)
 					(length 2.54)
 					(name ""
@@ -1895,8 +1743,28 @@
 						)
 					)
 				)
+			)
+			(symbol "1462042-8_1_0"
 				(pin passive line
 					(at -7.62 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1910,6 +1778,24 @@
 							(font
 								(size 1.016 1.016)
 							)
+						)
+					)
+				)
+			)
+			(symbol "1462042-8_1_1"
+				(text "+"
+					(at -6.35 4.064 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "-"
+					(at -6.35 -5.842 0)
+					(effects
+						(font
+							(size 1.27 1.27)
 						)
 					)
 				)
@@ -10031,7 +9917,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 71.12 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -10042,7 +9928,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 71.12 162.56 90)
 			(hide yes)
 			(show_name no)
@@ -11499,7 +11385,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 49.53 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -11510,7 +11396,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 49.53 129.54 90)
 			(hide yes)
 			(show_name no)
@@ -13588,7 +13474,7 @@
 		(fields_autoplaced yes)
 		(uuid "903af061-897b-44f2-9155-ef6889108063")
 		(property "Reference" "K3"
-			(at 83.82 149.86 0)
+			(at 82.7998 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13598,7 +13484,7 @@
 			)
 		)
 		(property "Value" "Relay SPDT"
-			(at 83.82 152.4 0)
+			(at 82.7998 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13608,7 +13494,7 @@
 			)
 		)
 		(property "Footprint" "FED3_PCBLib:RELAY_1462042-8"
-			(at 82.55 162.56 0)
+			(at 81.28 164.592 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13630,7 +13516,7 @@
 				)
 			)
 		)
-		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
+		(property "Description" "RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -13653,39 +13539,6 @@
 			)
 		)
 		(property "MPN" "1462042-8"
-			(at 82.55 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 82.55 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 82.55 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
 			(at 82.55 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -16205,7 +16058,7 @@
 				)
 			)
 		)
-		(property "OEPSPN" "OEPS030017"
+		(property "OEPSPN" "OEPS030052"
 			(at 189.23 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -16216,7 +16069,7 @@
 				)
 			)
 		)
-		(property "MPN" "1N4148WX-TP"
+		(property "MPN" "1N4148WS-E3-18"
 			(at 189.23 132.08 90)
 			(hide yes)
 			(show_name no)
@@ -17204,7 +17057,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9346c56-ca8a-480e-8022-93ee1fe58c55")
 		(property "Reference" "K1"
-			(at 63.5 116.84 0)
+			(at 62.4798 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17214,7 +17067,7 @@
 			)
 		)
 		(property "Value" "Relay SPDT"
-			(at 63.5 119.38 0)
+			(at 62.4798 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17224,7 +17077,7 @@
 			)
 		)
 		(property "Footprint" "FED3_PCBLib:RELAY_1462042-8"
-			(at 62.23 129.54 0)
+			(at 60.96 131.572 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17246,7 +17099,7 @@
 				)
 			)
 		)
-		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
+		(property "Description" "RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17269,39 +17122,6 @@
 			)
 		)
 		(property "MPN" "1462042-8"
-			(at 62.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 62.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 62.23 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
 			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19370,7 +19190,7 @@
 		(fields_autoplaced yes)
 		(uuid "f67494a8-b69e-4ca5-b7c5-3cc80f02ae83")
 		(property "Reference" "K2"
-			(at 200.66 118.11 0)
+			(at 199.6398 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19380,7 +19200,7 @@
 			)
 		)
 		(property "Value" "Relay SPDT"
-			(at 200.66 120.65 0)
+			(at 199.6398 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19390,7 +19210,7 @@
 			)
 		)
 		(property "Footprint" "FED3_PCBLib:RELAY_1462042-8"
-			(at 199.39 130.81 0)
+			(at 198.12 132.842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19412,7 +19232,7 @@
 				)
 			)
 		)
-		(property "Description" "OTHER:   RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
+		(property "Description" "RELAY SPDT 2A 5V TELECOM   [1462042-8] [SMD]"
 			(at 199.39 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -19435,39 +19255,6 @@
 			)
 		)
 		(property "MPN" "1462042-8"
-			(at 199.39 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TempCo" ""
-			(at 199.39 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 199.39 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
 			(at 199.39 130.81 0)
 			(hide yes)
 			(show_name no)

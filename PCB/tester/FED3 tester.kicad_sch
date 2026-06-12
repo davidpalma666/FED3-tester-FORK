@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "FED3 Test Board")
-		(rev "1.0")
+		(rev "C")
 		(comment 1 "Open Ephys, Inc.")
 	)
 	(lib_symbols

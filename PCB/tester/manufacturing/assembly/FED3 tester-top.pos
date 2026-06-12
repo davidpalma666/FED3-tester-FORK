@@ -1,5 +1,5 @@
-### Footprint positions - created on 2026-05-15T15:57:08 ###
-### Printed by KiCad version 10.0.1
+### Footprint positions - created on 2026-06-12T15:51:41 ###
+### Printed by KiCad version 10.0.3
 ## Unit = mm, Angle = deg.
 ## Side : top
 # Ref     Val              Package                                                       PosX       PosY       Rot  Side
@@ -52,9 +52,9 @@ D5        1N4148           D_SOD-123                                            
 D6        Yellow           LED_0603_1608Metric                                         9.3300    79.7700    0.0000  top
 D7        Green            LED_0603_1608Metric                                        72.0620     6.8257  180.0000  top
 D8        Red              LED_0603_1608Metric                                        82.0245     6.9007  180.0000  top
-D9        1N4148           D_SOD-123                                                  62.3225    84.7100  180.0000  top
-D10       1N4148           D_SOD-123                                                  43.0650    76.6200   90.0000  top
-D11       1N4148           D_SOD-123                                                  85.1300   105.9000  -90.0000  top
+D9        1N4148           D_SOD-123                                                  62.3225    84.7100    0.0000  top
+D10       1N4148           D_SOD-123                                                  43.0650    76.6200  -90.0000  top
+D11       1N4148           D_SOD-123                                                  85.1300   105.9000   90.0000  top
 J1        USB4105-GF-A     USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal    19.7800     3.6697    0.0000  top
 J3        6pin_hd          PinHeader_2x03_to_Probes                                   43.8391    86.2539   90.0000  top
 K1        Relay_SPDT       RELAY_1462042-8                                            62.3000    77.3100  -90.0000  top
@@ -81,7 +81,7 @@ R9        330R             R_0402_1005Metric                                    
 R10       330R             R_0402_1005Metric                                          41.2662    35.1634  180.0000  top
 R11       330R             R_0402_1005Metric                                          41.2662    31.9574  180.0000  top
 R12       330R             R_0402_1005Metric                                          41.2662    28.7824  180.0000  top
-R13       100R             R_0402_1005Metric                                          82.5800   118.0000   90.0000  top
+R13       1R               R_0402_1005Metric                                          82.5800   118.0000   90.0000  top
 R14       10k              R_0402_1005Metric                                           9.6025    82.2300  180.0000  top
 R15       10k              R_0402_1005Metric                                          81.8600   111.6800   90.0000  top
 R16       330R             R_0402_1005Metric                                          64.3000     6.8200  180.0000  top
