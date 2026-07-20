@@ -1,5 +1,72 @@
 
 
+
+OEPS020129	SMD 0603 48.7Ω ±1% 0.100W
+OEPS020221	SMD 0805 0.5Ω ±1% 0.333W 
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @6 Julho 2026
+
+- novo OPAMP ZXCT199xA2	G=100
+simulações feitas em Spice
+
+Vload=3.7V
+Iload=100uA => medir corrente em valor ADC <1.1V
+Iload= 8.80mA => medir corrente em valor ADC <1.1V
+Iload=500mA => FED3 em trabalho normal(?); não necessário medir corrente; garantir execuibilidade com este OPAMP
+
+valor MáxADC=1.1V => apontar os dois valores a medir para meio escala ~500mV
+
+
+Iload=100uA	=> Rsample=45R	=> Rload= 40k	 => Vout2ADC=500mv	OK		P(Rsample)=570nW escolher case
+
+Iload=8.8ma => Rsample=0.6R => 	Rload= 420.5R	=> Vout2ADC=46uW		OK
+
+
+Iload=500mA => Rload=6R			=> @ trabalhar com a Rsample=0.6R & Iload=500mA 	=> P(6R)= 188mW  escolher case => 
+							Vout2ADC=3.3V saturado pela tensão alimentação	OK
+
+
+
+
+
+
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+*  @18 Junho 2026
+
+Feitos testes centrados em Imeasure & modificados valores & topologia de circuito
+
+- Rmeasure passou de 0.5R a 1R
+- R36;37 alterado valor para garantir mais Iin em U9; novo valor 400R
+- R47: corrigido valor de R47 para maior Vout qd Itest=8.8mA; novo valor 24k
+- modificada topologia de ligação U9 Imeasure para com Relay K3
+- R LDO U4 para 3.7V: corrigida R7
+
+>> pontos acima modificados na board mas ainda não na BOM
+- corrigir valores e gerar nova BOM
+- ainda não modificar PCB
+
+>> para Imeasure:
+- Current measure U9=ZXCT1082 difícil para garantir medidas de corrente Imin=100uA a Imax=8.8mA
+- solução em vista: utilizar novo I measure ZXCT199A3DW
+- Filipe disse q por agora garantir a medição precisa dos 8.8mA será o mais importante
+
+>> neste passo do projecto garantir a medição @8.8mA com precisão
+- num novo passo testar & implementar novo ZXCT199A3DW... talvez
+
+
+>> ToDo a seguir:
+>> preparar & certificar o OK da board para passar ao Filipe para fw dvlpm
+>> rever Rs alteradas - algumas terá de haver novo OEPSPN
+>> prepar/procurar nova board para testes de ZXCT199A3DW
+
+
+
+
+
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 *  @24 Abril 2026
 - sobre rev.B
@@ -9,8 +76,6 @@
 - início de redesenho: FAB3 tester - rev.C
 
 - pontos acima redesenhados e commited em Github
-
-
 
 
 

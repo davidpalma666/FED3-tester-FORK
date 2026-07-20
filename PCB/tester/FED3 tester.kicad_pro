@@ -81,7 +81,24 @@
           "width": 0.21
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|78450000|151595289|46beebe5-8e97-4312-8507-92b2e21a3096|5373f884-0c64-49fc-9bb6-e9992ea48ec5",
+          ""
+        ],
+        [
+          "hole_clearance|78450000|151595289|56c2e7a5-c6a9-4f3b-ab02-87ba304a0395|5373f884-0c64-49fc-9bb6-e9992ea48ec5",
+          ""
+        ],
+        [
+          "hole_clearance|84550000|151595289|66c0fa20-8596-4844-b2f3-284f4715742a|1c139a5a-c049-44c6-bef6-49fbea4bc6a1",
+          ""
+        ],
+        [
+          "hole_clearance|84550000|151595289|892b5cd2-859e-4e01-a721-fe6feb43286f|1c139a5a-c049-44c6-bef6-49fbea4bc6a1",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -877,7 +894,7 @@
         },
         {
           "group_by": true,
-          "label": "Do Not Place",
+          "label": "DNP",
           "name": "${DNP}",
           "show": true
         },
@@ -897,7 +914,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -968,7 +985,7 @@
         "uuid": "2ba63f12-2fcd-4471-9636-2762cde37de8"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J1-7,BZ1,R1-44,#GND1-4,L1-2,D1-11,#PWR1-113,K1-3,C1-38,OSC1,Q1-6,SW1-9,TP1-12,U1-9",
     "variants": []
   },
   "sheets": [
