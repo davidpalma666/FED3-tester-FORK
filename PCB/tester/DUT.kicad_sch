@@ -3612,6 +3612,14 @@
 		(at 74.93 153.67)
 		(uuid "9987a1f2-320a-41e1-a7b2-9b712c6f2d92")
 	)
+	(no_connect
+		(at 267.97 22.86)
+		(uuid "eef4be67-3936-44d0-b73e-54484de42840")
+	)
+	(no_connect
+		(at 255.27 27.94)
+		(uuid "f7d8fc9f-201e-475a-913a-9b2564479633")
+	)
 	(wire
 		(pts
 			(xy 257.81 147.32) (xy 257.81 137.16)
@@ -4794,16 +4802,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 27.94) (xy 255.27 27.94)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(uuid "88dc9b1d-08f6-4d8d-9f4f-abdce75471a5")
-	)
-	(wire
-		(pts
 			(xy 41.91 177.8) (xy 44.45 177.8)
 		)
 		(stroke
@@ -4884,6 +4882,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 39.37) (xy 267.97 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d3e3b9-f046-4c34-ab75-ea8725803ccd")
+	)
+	(wire
+		(pts
 			(xy 144.78 72.39) (xy 144.78 71.12)
 		)
 		(stroke
@@ -4931,6 +4939,16 @@
 			(type default)
 		)
 		(uuid "9faf2f82-d66b-4506-9cca-e10d08d5b61b")
+	)
+	(wire
+		(pts
+			(xy 269.24 36.83) (xy 269.24 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fd3f54a-4da2-4cb2-a502-974b6e2fa6b1")
 	)
 	(wire
 		(pts
@@ -11441,85 +11459,6 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 252.73 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "70e250fb-e5db-4c90-8da0-1ebc33ed812a")
-		(property "Reference" "#PWR073"
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Value" "GND"
-			(at 252.73 32.766 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 252.73 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0884a935-f0dc-4410-acc9-957a6860aaf2")
-		)
-		(instances
-			(project "FED3 tester"
-				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
-					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
 		(at 35.56 142.24 0)
 		(unit 1)
 		(body_style 1)
@@ -16372,6 +16311,83 @@
 			(project "FED3 tester"
 				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
 					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 269.24 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5059eb4-ae09-4d14-9a8f-1ea153191e40")
+		(property "Reference" "#PWR073"
+			(at 269.24 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 268.478 32.766 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 269.24 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11091793-f99a-4fad-acae-9aa5507d887e")
+		)
+		(instances
+			(project "FED3 tester"
+				(path "/2ba63f12-2fcd-4471-9636-2762cde37de8/a050073c-fe8b-47ad-8c37-c2ab8f59b63a/838e2ae2-22cc-4dd4-86ab-e15afb1cdb8d"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

@@ -2393,7 +2393,6 @@
 			(drill 1.75)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "+3V3")
 			(pinfunction "Pin_6")
 			(pintype "passive")
 			(uuid "9ed04fcc-6b3c-426e-b6c9-fae6dfe3c730")
@@ -3523,6 +3522,76 @@
 		(uuid "accb8aa6-8b86-4b77-aa7d-73aaa8904214")
 	)
 	(gr_line
+		(start 112.3 37.84)
+		(end 141.5 37.84)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "e2bb4cec-dd85-46ea-98a4-904d53919b5c")
+	)
+	(gr_line
+		(start 141.496419 48.58)
+		(end 150.08 48.58)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4b0b7326-fe85-4817-8006-6fe4922581e2")
+	)
+	(gr_line
+		(start 141.5 37.84)
+		(end 141.496419 48.58)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5965d3f2-d348-4256-b61b-e3e89064125d")
+	)
+	(gr_line
+		(start 148.3 87.885833)
+		(end 148.3 172.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "ea84051f-5be9-4555-ae18-f53a7f7336e2")
+	)
+	(gr_line
+		(start 148.3 172.2)
+		(end 131.15 172.2)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "4598e8d1-b6e9-4619-bb9f-74ffffb51fd7")
+	)
+	(gr_line
+		(start 150.08 48.58)
+		(end 150.08 86.18)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "bd3cd5bf-0add-429b-9e34-8926a9e5f62e")
+	)
+	(gr_line
+		(start 150.08 86.18)
+		(end 148.3 87.885833)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "b4ca0044-781c-4b9a-b6bf-251304818474")
+	)
+	(gr_line
 		(start 45.3 42.856049)
 		(end 50.3 37.856049)
 		(stroke
@@ -3654,7 +3723,7 @@
 	)
 	(gr_line
 		(start 148.3 37.856049)
-		(end 153.3 42.856049)
+		(end 150.1 39.656049)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -3683,8 +3752,8 @@
 		(uuid "e52edf4a-8a35-4514-b187-6dfaac71dbef")
 	)
 	(gr_line
-		(start 153.3 42.856049)
-		(end 153.3 82.806049)
+		(start 150.1 39.656049)
+		(end 150.1 86.18)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -3693,7 +3762,7 @@
 		(uuid "dcb4daff-e9f0-4684-897a-f097c01227c4")
 	)
 	(gr_line
-		(start 153.3 82.806049)
+		(start 150.1 86.18)
 		(end 148.3 87.806049)
 		(stroke
 			(width 0.25)
@@ -3713,7 +3782,7 @@
 		(layer "F.Fab")
 		(uuid "4c941acf-3140-4330-a137-42db4fbcc9ff")
 	)
-	(gr_text "FED3 tester - support\nrev.B"
+	(gr_text "FED3 tester - support\nrev.C"
 		(at 55 155.9 0)
 		(layer "F.SilkS")
 		(uuid "573460c4-167e-47eb-9ec6-1b6fd32c4fd1")
@@ -3761,6 +3830,14 @@
 	(group ""
 		(uuid "f4a9d808-31ca-4056-8809-6daa0d43b5a8")
 		(members "957468f4-e4ee-485a-b667-6ad02b729629" "accb8aa6-8b86-4b77-aa7d-73aaa8904214")
+	)
+	(group ""
+		(uuid "4053328c-89e1-4a15-8407-897357472b84")
+		(members "4598e8d1-b6e9-4619-bb9f-74ffffb51fd7" "4b0b7326-fe85-4817-8006-6fe4922581e2"
+			"5965d3f2-d348-4256-b61b-e3e89064125d" "b4ca0044-781c-4b9a-b6bf-251304818474"
+			"bd3cd5bf-0add-429b-9e34-8926a9e5f62e" "e2bb4cec-dd85-46ea-98a4-904d53919b5c"
+			"ea84051f-5be9-4555-ae18-f53a7f7336e2"
+		)
 	)
 	(embedded_fonts no)
 )
